@@ -6,7 +6,7 @@ export const themeConfig: ThemeConfig = {
     // site title
     title: 'Cman',
     // site subtitle
-    subtitle: 'Ramblings of a Computer Scientist',
+    subtitle: 'Sourdough enthusiast, tinker with computers sometimes',
     // site description
     description: 'A software engineer obssessed with learning quantitative finance, english literature and computer science.',
     // use i18n title/subtitle/description from src/i18n/ui.ts instead of static ones above
