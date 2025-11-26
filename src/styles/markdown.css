@@ -7,6 +7,8 @@
 /* Global Styles */
 .heti {
   --at-apply: 'break-words leading-normal hyphens-auto cjk:tracking-0.02em';
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
 }
 
 /* Customized Post Title */
@@ -46,6 +48,7 @@
 /* Paragraphs */
 .heti :where(p:not(.no-heti):not(.no-heti *)) {
   --at-apply: 'mb-4 text-pretty cjk:text-justify';
+  font-weight: 500;
 }
 
 /* Links */
@@ -191,6 +194,7 @@ html.dark .heti pre span {
 }
 .heti :where(li) {
   --at-apply: 'mt-0.25em list-unset';
+  font-weight: 500;
 }
 .heti :is(h1, h2, h3, h4, h5, h6, ul, ol) + :is(ul, ol) {
   --at-apply: 'mt-4';
